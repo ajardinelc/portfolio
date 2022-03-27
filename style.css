@@ -17,6 +17,10 @@ body{
     font-weight: bold;
 }
 
+a.font-black {
+    color: black !important;
+}
+
 /*****************
 
 ABOUT
@@ -61,6 +65,44 @@ ABOUT
     font-size: 30px;
 }
 
-#about .icons a {
+p {
+    font-size: 14px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+/********************
+
+PROJECTS
+
+********************/
+
+#projects {
+    margin: 60px auto;
+    width: 80%
+}
+
+#projects h2 {
+    text-align: center;
+}
+
+#projects .card img {
+    width: 110%
+}
+
+.bi-github::before{
     color: gray;
 }
+
+.bi-facebook::before{
+    color: gray;
+}
+
+#projects .card-title {
+    font-weight: bold;
+}
+
